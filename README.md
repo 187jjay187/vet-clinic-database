@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Vet Clinic database] <a name="about-project"></a>
 
 > this vet clinic database project will use a relational database to create the initial data structure for a vet clinic. it will have a table with inserted data that will be queried.
 
