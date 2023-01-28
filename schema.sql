@@ -34,3 +34,31 @@ ALTER TABLE animals ADD species_id INT;
  ALTER TABLE animals ADD CONSTRAINT fk_species_table FOREIGN KEY(species_id) REFERENCES species(id);
  -- add constraint to owner-id primary key
 ALTER TABLE animals ADD CONSTRAINT fk_owner_table FOREIGN KEY(owner_id) REFERENCES owners(id);
+-- Create tables for the list of vets
+CREATE TABLE vets (
+    id integer NOT NULL GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    name varchar(100),
+    age integer,
+    date_of_graduation date
+);
+-- Create table for the list of specialization
+CREATE TABLE specializations (
+    vet_id integer NOT NULL,
+    species_id integer NOT NULL,
+    PRIMARY KEY (vet_id, species_id),
+    CONSTRAINT fk_Vets  
+    FOREIGN KEY(vet_id) REFERENCES vets(id),
+    CONSTRAINT fk_Species  
+    FOREIGN KEY(species_id) REFERENCES species(id)
+);
+-- Create tables for the list of visits
+CREATE TABLE visits (
+    vet_id integer NOT NULL,
+    animals_id integer NOT NULL,
+    date_visited date,
+    PRIMARY KEY (vet_id, animals_id, date_visited),
+    CONSTRAINT fk_Vets  
+    FOREIGN KEY(vet_id) REFERENCES vets(id),
+    CONSTRAINT fk_animals  
+    FOREIGN KEY(animals_id) REFERENCES animals(id)
+); 
