@@ -60,8 +60,6 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Vet Clinic database] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 > this vet clinic database project will use a relational database to create the initial data structure for a vet clinic. it will have a table with inserted data that will be queried.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -71,21 +69,14 @@ After you're finished please remove all the comments and instructions!
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
-  <summary>Client</summary>
+  <summary>VScode</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="">VScode.com</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
+<summary>SQL</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
@@ -105,11 +96,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo Link - ([animal vet database](https://github.com/187jjay187/vet-clinic-database))</a>
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Github]https://github.com/187jjay187/vet-clinic-database)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,6 +115,9 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+
+- SQL
+- VS CODE
 
 <!--
 Example command:
@@ -141,56 +135,6 @@ Clone this repository to your desired folder:
   cd my-folder
   git clone https://github.com/187jjay187/vet-clinic-database.git
 ```
-
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
