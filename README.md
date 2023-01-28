@@ -1,6 +1,3 @@
-# curriculum-databases-projects-template
-
-> This template should be used for database related projects at Microverse.
 
 ## Getting Started
 
@@ -63,9 +60,9 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Vet Clinic database] <a name="about-project"></a>
 
-> this vet clinic database project will use a relational database to create the initial data structure for a vet clinic. it will have a table with inserted data that will be queried.
+> Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+> this vet clinic database project will use a relational database to create the initial data structure for a vet clinic. it will have a table with inserted data that will be queried.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -100,9 +97,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[create a table to store animals]**
-- **[insert data into the table]**
-- **[and query the data]**
+- **[The project has a database of animals]**
+- **[The database comprises of data in the form of name, date_of_birth, escape_attempts, neutered, weight_kg ]**
+- **[users are able to add data and query to search for data input]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,14 +137,11 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/187jjay187/vet-clinic-database.git
 ```
---->
+
 
 ### Install
 
@@ -204,11 +198,14 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
+
 👤 **Jerome Jay**
 
 - GitHub: @githubhandle(https://github.com/187jjay187)
 - Twitter: @twitterhandle(https://twitter.com/187jjay187)
 - LinkedIn: LinkedIn(https://linkedin.com/in/jerome-osman-137605a4)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
