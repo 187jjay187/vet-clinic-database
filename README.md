@@ -1,6 +1,3 @@
-# curriculum-databases-projects-template
-
-> This template should be used for database related projects at Microverse.
 
 ## Getting Started
 
@@ -65,8 +62,6 @@ After you're finished please remove all the comments and instructions!
 
 > this vet clinic database project will use a relational database to create the initial data structure for a vet clinic. it will have a table with inserted data that will be queried.
 
-**[your_project__name]** is a...
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -74,21 +69,14 @@ After you're finished please remove all the comments and instructions!
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
-  <summary>Client</summary>
+  <summary>VScode</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="">VScode.com</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
+<summary>SQL</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
@@ -100,19 +88,19 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[create a table to store animals]**
-- **[insert data into the table]**
-- **[and query the data]**
+- **[The project has a database of animals]**
+- **[The database comprises of data in the form of name, date_of_birth, escape_attempts, neutered, weight_kg ]**
+- **[users are able to add data and query to search for data input]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo Link - ([animal vet database](https://github.com/187jjay187/vet-clinic-database))</a>
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Github]https://github.com/187jjay187/vet-clinic-database)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,6 +116,9 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+- SQL
+- VS CODE
+
 <!--
 Example command:
 
@@ -140,63 +131,10 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/187jjay187/vet-clinic-database.git
 ```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -204,11 +142,14 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
+
 👤 **Jerome Jay**
 
 - GitHub: @githubhandle(https://github.com/187jjay187)
 - Twitter: @twitterhandle(https://twitter.com/187jjay187)
 - LinkedIn: LinkedIn(https://linkedin.com/in/jerome-osman-137605a4)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -251,6 +192,8 @@ If you like this project...
 
 I would like to thank...
 
+- Microverse
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
@@ -273,7 +216,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
